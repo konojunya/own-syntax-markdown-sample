@@ -1,0 +1,22 @@
+{
+  "name": "own-syntax-markdown-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/konojunya/own-syntax-markdown-sample.git",
+  "author": "konojunya <junya03dance@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "devDependencies": {
+    "@types/hast-format": "^2.3.0",
+    "parcel": "^1.12.3",
+    "rehype-format": "^2.3.2",
+    "rehype-stringify": "^6.0.0",
+    "remark-parse": "^7.0.1",
+    "remark-rehype": "^5.0.0",
+    "typescript": "^3.5.3",
+    "unified": "^8.3.2",
+    "unist-util-visit": "^2.0.0"
+  }
+}
